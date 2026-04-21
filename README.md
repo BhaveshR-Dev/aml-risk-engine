@@ -66,3 +66,16 @@ aml-risk-engine/
 - Reduced false positives using scoring logic
 - Automated transaction monitoring process
 - Improved efficiency of fraud detection workflows
+
+## 🧠 Advanced Detection Logic
+
+Implemented multi-layer AML rules:
+- Structuring detection (transaction splitting)
+- High-risk geography monitoring
+- Large transaction alerts
+- Combined behavioral risk detection
+
+## 📊 Detection Strategy
+- Rule-based filtering
+- Multi-condition alert generation
+- Weighted risk scoring model
