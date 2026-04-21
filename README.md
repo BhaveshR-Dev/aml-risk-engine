@@ -37,6 +37,32 @@ Developed a rule-based AML engine using SAS to:
 - Improved detection accuracy using scoring model
 
 ## 📂 Project Structure
+aml-risk-engine/
+│── data/
+│── sas/
+│── sql/
+│── docs/
+│── README.md
 
 ## 🏗 System Architecture
+[Transaction Data]
+↓
+[Data Ingestion - SAS]
+↓
+[Rule Engine]
+↓
+[Alert Generation]
+↓
+[Risk Scoring Engine]
+↓
+[Final Alerts Output]
 
+## 📌 Key Highlights
+- Designed a modular AML detection system
+- Implemented rule-based and scoring-based detection
+- Structured like real-world banking AML pipeline
+
+## 💼 Business Impact
+- Reduced false positives using scoring logic
+- Automated transaction monitoring process
+- Improved efficiency of fraud detection workflows
