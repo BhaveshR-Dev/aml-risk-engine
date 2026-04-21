@@ -1,0 +1,13 @@
+[Transaction Data]
+        ↓
+[Data Ingestion - SAS]
+        ↓
+[Rule Engine]
+   - High Value Check
+   - Geo Risk Check
+        ↓
+[Alert Generation]
+        ↓
+[Risk Scoring Engine]
+        ↓
+[Final Alerts Output]
