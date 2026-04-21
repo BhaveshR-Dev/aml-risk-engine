@@ -1,0 +1,6 @@
+txn_id,account_id,amount,country
+1,101,5000,IN
+2,102,200000,US
+3,103,150000,IR
+4,104,3000,IN
+5,105,500000,UK
