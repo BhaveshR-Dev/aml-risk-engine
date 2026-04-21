@@ -1,29 +1,39 @@
 # AML Transaction Monitoring Engine
 
 ## 🚀 Overview
-This project simulates an Anti-Money Laundering (AML) transaction monitoring system used in banking environments.
+This project simulates a real-world Anti-Money Laundering (AML) transaction monitoring system used in banking environments.
 
-## 🎯 Objective
-To detect suspicious transactions and reduce false positives using rule-based logic.
+## 🎯 Business Problem
+Banks face challenges in detecting suspicious transactions while minimizing false positives and ensuring regulatory compliance.
 
-## 🧠 Features
-- Transaction monitoring rules
+## 💡 Solution
+Developed a rule-based AML engine using SAS to:
+- Detect suspicious transactions
+- Generate alerts
+- Assign risk scores
+
+## ⚙️ Features
+- High-value transaction detection
+- Suspicious geography identification
 - Alert generation
-- Risk scoring
-- Data validation checks
+- Risk scoring model
+
+## 🧠 Risk Scoring Logic
+- High transaction amount → +50 score
+- Suspicious country → +40 score
+- Risk Levels:
+  - HIGH (≥80)
+  - MEDIUM (50–79)
+  - LOW (<50)
 
 ## 🛠 Tech Stack
 - SAS (Base, PROC SQL)
 - SQL
 - Linux
 
-## 📊 Use Case
-Simulates real-world AML scenarios such as:
-- High-value transactions
-- Rapid fund movements
-- Suspicious geographies
+## 📊 Results
+- Simulated AML alert generation
+- Reduced manual monitoring effort
+- Improved detection accuracy using scoring model
 
-## 📈 Expected Outcome
-- Improved detection accuracy
-- Reduced false positives
-- Faster processing time
+## 📂 Project Structure
