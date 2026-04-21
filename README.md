@@ -79,3 +79,18 @@ Implemented multi-layer AML rules:
 - Rule-based filtering
 - Multi-condition alert generation
 - Weighted risk scoring model
+
+## 📊 Sample Output
+
+| txn_id | amount | country | risk_score | risk_level |
+|--------|--------|---------|------------|------------|
+| 2      | 200000 | US      | 50         | MEDIUM     |
+| 3      | 150000 | IR      | 90         | HIGH       |
+| 5      | 500000 | UK      | 50         | MEDIUM     |
+
+## 🎯 False Positive Reduction Strategy
+- Implemented multi-condition rule checks to avoid unnecessary alerts
+- Introduced weighted scoring instead of binary rules
+- Prioritized high-risk alerts for investigation efficiency
+
+
