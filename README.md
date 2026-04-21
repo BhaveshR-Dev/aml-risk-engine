@@ -37,3 +37,6 @@ Developed a rule-based AML engine using SAS to:
 - Improved detection accuracy using scoring model
 
 ## 📂 Project Structure
+
+## 🏗 System Architecture
+
